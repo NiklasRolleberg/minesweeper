@@ -1,5 +1,6 @@
 
-package com.niklas.minesweeper;
+package niklas.minesweeper;
+
 import java.io.Serializable;
 
 
@@ -113,16 +114,8 @@ public class data implements Serializable{
 	
 	public static boolean changestate(int x,int y,boolean flag){
 		
-		int i=0;
-		while (i*dist<x){
-			i++;
-		}
-		i--;
-		int j=0;
-		while (j*dist<y){
-			j++;
-		}
-		j--;
+		int i = (int) (x/dist); 
+		int j = (int) (y/dist); 
 		
 		if (i>linesX-1){
 			return false;

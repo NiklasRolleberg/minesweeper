@@ -1,4 +1,4 @@
-package com.niklas.minesweeper;
+package niklas.minesweeper;
 
 import android.app.Activity;
 import android.graphics.Color;

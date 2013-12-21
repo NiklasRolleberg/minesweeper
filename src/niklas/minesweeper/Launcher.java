@@ -1,4 +1,6 @@
-package com.niklas.minesweeper;
+package niklas.minesweeper;
+
+import com.niklas.minesweeper.R;
 
 import android.app.Activity;
 import android.content.Intent;
